@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>ul滑动列表</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style>
+            .slide_screen{float:left;position:relative;overflow:hidden; background-color: yellow;padding:5px;width:200px;height:80px}
+            .slide_box{list-style:none;/*去掉前面小黑点*/position:absolute;margin:0;padding:0;height:60px;left:-40px;} 
+            .slide_box li{float:left;border:solid 1px red;width:50px;height:50px}
+            .slide_btn{float:left;width:50px;height:60px;border:solid 3px blue;}
+        </style>
+    </head>
+    <body>
+        <div class="slide_btn prev"><-</div>
+        <div class="slide_screen">
+            <ul class="slide_box">
+            </ul>
+        </div>
+        <div class="slide_btn next">-></div>
+        <div style="clear:both;"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a target="_blank" href="http://www.w3school.com.cn/cssref/pr_list-style.asp"> 如何去掉ul - > li前的小黑点</a>
+    </body>
+    <script type="text/javascript" src="../../libjs/jquery/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="../../pagejs/css/ul_slide.js"></script>
+</html>
